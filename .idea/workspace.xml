@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953d9b91-7c66-4a13-a144-6a3ff5f6fb6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UnknownPage/UnknownPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserPage/UserPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/mainReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/MainPageStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainPage/UserItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserPage/UserPageStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UnknownPage/UnknownPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserPage/UserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserPage/UserPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -118,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602615314560</updated>
-      <workItem from="1602615315786" duration="7045000" />
+      <workItem from="1602615315786" duration="13432000" />
     </task>
     <servers />
   </component>
@@ -150,10 +150,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="789" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1602617443234" />
-    <state x="880" y="460" key="Vcs.Push.Dialog.v2" timestamp="1602617819492">
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2" timestamp="1602627224718">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="460" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1602617819492" />
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1602627224718" />
     <state x="945" y="345" key="run.anything.popup" timestamp="1602618165744">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
