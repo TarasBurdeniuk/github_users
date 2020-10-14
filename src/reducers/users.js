@@ -1,6 +1,7 @@
-import { GET_ALL_USERS, ALERT_USERS, GET_ONE_USER } from '../actions/types';
+import { GET_ALL_USERS, ALERT_USERS, GET_ONE_USER, LOADING_USER } from '../actions/types';
 
 const initialState = {
+  isLoading: false,
   allUsers: null,
   alert: '',
   currentUser: null,
@@ -9,6 +10,11 @@ const initialState = {
 const users = (state = initialState, action) => {
   const { type, payload } = action;
   switch (type) {
+    case LOADING_USER:
+      return {
+        ...state,
+        isLoading: true,
+      };
     case GET_ALL_USERS:
       return {
         ...state,
@@ -23,6 +29,7 @@ const users = (state = initialState, action) => {
       return {
         ...state,
         currentUser: payload,
+        isLoading: false,
       };
     default:
       return state;
